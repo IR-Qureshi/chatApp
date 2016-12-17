@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.user.mychatapp">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -17,6 +18,7 @@
         </activity>
         <activity android:name=".Messenger" />
         <activity android:name=".LetChat"></activity>
+
     </application>
 
 </manifest>
